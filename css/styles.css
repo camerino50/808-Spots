@@ -1,0 +1,118 @@
+nav{
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+   }
+
+   .logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+   }
+   .logo:hover{
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+   }
+   li{
+    float: right;
+    margin: 40px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    margin-top: 15px;
+   }
+   .name{
+       color: rgb(0, 0, 0);
+       font-size: 100px;
+       margin-left: 600px;
+       height: 50px;
+   }
+   
+  header{
+    height: 300px;
+    background-color: lightskyblue;
+    opacity: 0;
+    filter: alpha(opacity=0);
+   }
+   main{
+    height: 900px;
+    background-color: lightskyblue;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    position: relative;
+    top: -160px;
+   }
+   footer{
+    height: 100px;
+   }
+   h2{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 50px;
+   }
+   i{
+       color: black;
+       height: 50px;
+       width: 50px;
+   }
+   .social{
+       height: 60px;
+       width: 60px;
+       display: inline-block;
+       margin-left: 350px;
+   }
+  
+   .tabs{
+       border : 50px;
+   }
+
+   .tabs:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+   body{
+       background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Kailua_Oahu.JPG)
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+      .box {
+        float: left;
+        width: 33%;
+        padding: 5px;
+
+        
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .second{
+        background: rgba(171, 220, 251, 0.3)
+    }
+    .label{
+        font-size: 40px;
+        margin-left: 180px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    .label2{
+        font-size: 40px;
+        margin-left: 100px;
+        font-family: 'Shadows Into Light', cursive;
+    }
+    .label3{
+        font-size: 40px;
+        margin-left: 150px;
+        font-family: 'Shadows Into Light', cursive;
+    p2{
+        font-family:'Shadows Into Light', cursive;
+    }
+
+   /*font-family: 'Shadows Into Light', cursive;
+   font-family: 'Indie Flower', cursive;

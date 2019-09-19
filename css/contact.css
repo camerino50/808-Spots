@@ -1,0 +1,76 @@
+nav{
+    height: 100px;
+    font-family: 'Indie Flower', cursive;
+   }
+
+   .logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+   }
+   .logo:hover{
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+   }
+   li{
+    float: right;
+    margin: 40px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    margin-top: 15px;
+   }
+.map{
+    width: 45%;
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: -580px;
+    /* margin-left: 500px; */
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.contact-form{
+    height: 600px;
+    width: 48%;
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 10px;
+
+}
+header{
+    height: 300px;
+    background-color: lightskyblue;
+    opacity: 0;
+    filter: alpha(opacity=0);
+   }
+   main{
+    height: 1000px;
+    background-color: lightskyblue;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    position: relative;
+    top: -160px;
+   }
+.tabs{
+    border : 50px;
+}
+
+.social{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin-left: 350px;
+}
+footer{
+    height: 10px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+   }
